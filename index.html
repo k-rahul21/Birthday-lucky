@@ -15,10 +15,14 @@
       <h1>Is your birthday Lucky?</h1>
     </header>
     <div id="container">
+      <p id="privacy">
+        We won't store your data!!
+        <img id="cancel" src="images/cancel.png" alt="" />
+      </p>
       <label for="birthdate">Enter your birth-date 👇</label>
-      <input id="birthdate" type="date" />
+      <input id="birthdate" type="date" required />
       <label for="lucky-no">Enter your lucky number 👇</label>
-      <input id="lucky-no" type="number" />
+      <input id="lucky-no" type="number" required />
       <button id="check-button">Let's find</button>
       <div class="happy-animation" hidden>
         <lottie-player
@@ -43,6 +47,9 @@
       </div>
       <div id="output-box"></div>
     </div>
+    <footer>
+      <a href="">Rahul Khandelwal</a>
+    </footer>
 
     <script src="script.js"></script>
   </body>
