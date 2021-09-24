@@ -31,6 +31,19 @@ h1 {
   background-color: var(--secondary-color);
 }
 
+#privacy {
+  border: 1px solid var(--secondary-color);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 0.5rem;
+}
+
+#cancel {
+  padding: 0.4rem 0 0 1rem;
+}
+
 #birthdate,
 #lucky-no {
   width: 60%;
@@ -54,4 +67,13 @@ h1 {
   cursor: pointer;
   background-color: var(--primary-color);
   color: var(--light-color);
+}
+
+footer {
+  margin: 7rem 1rem 1rem 1rem;
+}
+
+footer > a {
+  color: var(--primary-color);
+  text-decoration: underline;
 }
