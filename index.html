@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lucky Day</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Lottie -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </head>
+
   <body>
     <header>
       <h1>Is your birthday Lucky?</h1>
@@ -17,6 +20,28 @@
       <label for="lucky-no">Enter your lucky number 👇</label>
       <input id="lucky-no" type="number" />
       <button id="check-button">Let's find</button>
+      <div class="happy-animation" hidden>
+        <lottie-player
+          src="https://assets4.lottiefiles.com/packages/lf20_tWg5a4.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 300px"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+
+      <div class="sad-animation" hidden>
+        <lottie-player
+          src="https://assets2.lottiefiles.com/private_files/lf30_iynlqgqh.json"
+          background="transparent"
+          speed="1"
+          style="width: 280px; height: 280px; margin: 1rem"
+          loop
+          autoplay
+        ></lottie-player>
+      </div>
+      <div id="output-box"></div>
     </div>
 
     <script src="script.js"></script>
