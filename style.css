@@ -31,6 +31,24 @@ h1 {
   background-color: var(--secondary-color);
 }
 
+@media screen and (max-width: 700px) {
+  #container {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 925px) {
+  #container {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #container {
+    max-width: 20vw;
+  }
+}
+
 #privacy {
   border: 1px solid var(--secondary-color);
   font-size: 1rem;
@@ -52,6 +70,12 @@ h1 {
   display: block;
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+@media screen and (min-width: 1200px) {
+  #birthdate {
+    font-size: 1rem;
+  }
 }
 
 #check-button {
