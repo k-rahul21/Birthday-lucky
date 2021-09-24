@@ -9,5 +9,5 @@ A web app which which takes your birthdate and lucky number and do some calculat
 - Show if your birthdate is lucky or not.
 - Made using vanillaJS.
 
-### Live:
+### Live: https://is-birthdatee-lucky.netlify.app/
 ### Source: https://github.com/k-rahul21/Birthday-lucky/tree/master
